@@ -1,0 +1,6 @@
+{
+    "search_button": "//div[@class='Layout-sc-1xcs6mc-0 gUvyVO']",
+    "search_field": "//div[@data-a-target='tray-search-input']/input[@type='search']",
+    "follow_btn":"//*[@class='CoreText-sc-1txzju1-0 ScTitleText-sc-d9mj2s-0 sghpq jYWWLJ tw-title'])[0]",
+    "search_results":"//div[contains(@id,'search-result-row')]"
+}

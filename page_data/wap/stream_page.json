@@ -1,0 +1,4 @@
+{
+    "loading_icon": "//div[contains(@class,'tw-loading-spinner')]",
+    "video_info":"//div[@data-a-target='video-ref']"
+}
