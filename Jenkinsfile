@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/rnjacky777/auto_framework_2025.git'
+                git branch: 'main', url: 'https://github.com/rnjacky777/auto_framework_2025.git'
             }
         }
 
