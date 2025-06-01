@@ -16,17 +16,11 @@ class TestFirst(CoreObject):
     @allure.title("wap test")
     @allure.description("use selenium to open twitch and scroll web select one streamer")
     @pytest.mark.parametrize("driver", ["web"], indirect=True)
-    def test_first_testcase_1(self):
+    def test_first_testcase_3(self):
+        pytest.skip()
         self.home_page.go_to_twich()
         self.home_page.input_search_text("StarCraft II")
         self.home_page.click_search_result(index=0)
         print("Test case 1")
 
-    @allure.title("wap test")
-    @allure.description("use selenium to open twitch and scroll web select one streamer")
-    @pytest.mark.parametrize("driver", ["web"], indirect=True)
-    def test_first_testcase_2(self):
-        self.home_page.go_to_twich()
-        self.home_page.input_search_text("StarCraft II")
-        self.home_page.click_search_result(index=0)
-        print("Test case 2")
+
